@@ -1,0 +1,140 @@
+<div id="stApplyForm" class="text-center">
+    <h3><i i18n="apply.form.address">REFRENCE_i18n</i></h3>
+    <div class="school-form">
+        <div class="school-form-title" i18n="apply.form.now.title">Apply Now</div>
+        <div class="dropdown st-dropdown">
+            <div class="st-dropdown-button" id="applynowMenu">
+                <strong i18n="apply.form.now.select.title">Online Application</strong>
+                <span class="glyphicon glyphicon-plus"></span>
+            </div>
+            <ul class="st-dropdown-menu">
+                <!--
+                <li><a href="http://york.edu.hk/onlineapplicationform/form.htm" i18n="apply.form.campus.name.kowloon">Kowloon Tong Campus</a></li>
+                <li><a href="http://york.edu.hk/onlineapplicationform/form_hk.htm" i18n="apply.form.campus.name.hongkong">Hong Kong Island Campus</a></li>
+                <li><a href="http://york.edu.hk/onlineapplicationform/form_yl.htm" i18n="apply.form.campus.name.yuenlong">Yuen Long Campus</a></li>
+                <li><a href="http://york.edu.hk/onlineapplicationform/form_mf.htm" i18n="apply.form.campus.name.meifoo">Mei Foo Campus</a></li>
+                -->
+
+                <li><a href="school/panyu.html" i18n="apply.form.campus.name.panyu">REFRENCE_i18n</a></li>
+                <li><a name="jindi" i18n="apply.form.campus.name.jindi">REFRENCE_i18n</a></li>
+                <li><a name="liantang" i18n="apply.form.campus.name.liantang">REFRENCE_i18n</a></li>
+                <li><a name="hengli" i18n="apply.form.campus.name.hengli">REFRENCE_i18n</a></li>
+                <li><a name="changping" i18n="apply.form.campus.name.changping">REFRENCE_i18n</a></li>
+                <li><a name="changpingp" i18n="apply.form.campus.name.changping.primary">REFRENCE_i18n</a></li>
+                
+            </ul>
+        </div>
+
+        <div>
+            <table id="panyu" class="table table-bordered table-responsive">
+                <tr>
+                    <td i18n="apply.form.campus.address.title">REFRENCE_i18n</td>
+                    <td i18n="apply.form.campus.name.panyu.address">REFRENCE_i18n</td>
+                </tr>
+                <tr>
+                    <td i18n="apply.form.campus.phone.title">REFRENCE_i18n</td>
+                    <td i18n="apply.form.campus.name.panyu.phone">REFRENCE_i18n</td>
+                </tr>
+            </table>
+            <table id="jindi" class="table table-bordered table-responsive">
+                <tr>
+                    <td i18n="apply.form.campus.address.title">REFRENCE_i18n</td>
+                    <td i18n="apply.form.campus.name.jindi.address">REFRENCE_i18n</td>
+                </tr>
+                <tr>
+                    <td i18n="apply.form.campus.phone.title">REFRENCE_i18n</td>
+                    <td i18n="apply.form.campus.name.jindi.phone">REFRENCE_i18n</td>
+                </tr>
+            </table>
+            <table id="liantang" class="table table-bordered table-responsive">
+                <tr>
+                    <td i18n="apply.form.campus.address.title">REFRENCE_i18n</td>
+                    <td i18n="apply.form.campus.name.liantang.address">REFRENCE_i18n</td>
+                </tr>
+                <tr>
+                    <td i18n="apply.form.campus.phone.title">REFRENCE_i18n</td>
+                    <td i18n="apply.form.campus.name.liantang.phone">REFRENCE_i18n</td>
+                </tr>
+            </table>
+            <table id="hengli" class="table table-bordered table-responsive">
+                <tr>
+                    <td i18n="apply.form.campus.address.title">REFRENCE_i18n</td>
+                    <td i18n="apply.form.campus.name.hengli.address">REFRENCE_i18n</td>
+                </tr>
+                <tr>
+                    <td i18n="apply.form.campus.phone.title">REFRENCE_i18n</td>
+                    <td i18n="apply.form.campus.name.hengli.phone">REFRENCE_i18n</td>
+                </tr>
+            </table>
+            <table id="changping" class="table table-bordered table-responsive">
+                <tr>
+                    <td i18n="apply.form.campus.address.title">REFRENCE_i18n</td>
+                    <td i18n="apply.form.campus.name.changping.address">REFRENCE_i18n</td>
+                </tr>
+                <tr>
+                    <td i18n="apply.form.campus.phone.title">REFRENCE_i18n</td>
+                    <td i18n="apply.form.campus.name.changping.phone">REFRENCE_i18n</td>
+                </tr>
+            </table>
+            <table id="changpingp" class="table table-bordered table-responsive">
+                <tr>
+                    <td i18n="apply.form.campus.address.title">REFRENCE_i18n</td>
+                    <td i18n="apply.form.campus.name.changping.primary.address">REFRENCE_i18n</td>
+                </tr>
+                <tr>
+                    <td i18n="apply.form.campus.phone.title">REFRENCE_i18n</td>
+                    <td i18n="apply.form.campus.name.changping.primary.phone">REFRENCE_i18n</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <h3><i i18n="apply.form.or">OR</i></h3>
+    
+    <div class="school-form">
+        <form action="http://york.edu.hk/mobile/php/email.php" method="post">
+            <div class="school-form-title"  i18n="apply.form.later.title">Apply Later</div>
+            <div class="form-group">
+                <label for="email"><i i18n="apply.form.later.tip">Enter your email address and we will send our application form to you.</i></label>
+                <input type="email" class="form-control" id="email" name="email" i18n="apply.form.later.input.tip" i18n-only="placeholder" placeholder="Your Email">
+                </div>
+                <div class="dropdown st-dropdown">
+                <div class="st-dropdown-button" id="applylaterMenu">
+                    <b i18n="apply.form.later.select.title">Please select campus</b>
+                    <span class="glyphicon glyphicon-plus"></span>
+                </div>
+                <ul class="st-dropdown-menu">
+                    <!-- 
+                    <li><a href="javascript:void(0)" onclick="showSchoolType('kowloon', 'Kowloon Tong Campus');" i18n="apply.form.campus.name.kowloon">Kowloon Tong Campus</a></li>
+                    <li><a href="javascript:void(0)" onclick="showSchoolType('hongkong', 'Hong Kong Island Campus');" i18n="apply.form.campus.name.hongkong">Hong Kong Island Campus</a></li>
+                    <li><a href="javascript:void(0)" onclick="showSchoolType('yuenlong', 'Yuen Long Campus');" i18n="apply.form.campus.name.yuenlong">Yuen Long Campus</a></li>
+                    <li><a href="javascript:void(0)" onclick="showSchoolType('meifoo', 'Mei Foo Campus');" i18n="apply.form.campus.name.meifoo">Mei Foo Campus</a></li> 
+                    -->
+                    <li><a i18n="apply.form.campus.name.panyu">REFRENCE_i18n</a></li>
+                    <li><a i18n="apply.form.campus.name.jindi">REFRENCE_i18n</a></li>
+                    <li><a i18n="apply.form.campus.name.liantang">REFRENCE_i18n</a></li>
+                    <li><a i18n="apply.form.campus.name.hengli">REFRENCE_i18n</a></li>
+                    <li><a i18n="apply.form.campus.name.changping">REFRENCE_i18n</a></li>
+                    <li><a i18n="apply.form.campus.name.changping.primary">REFRENCE_i18n</a></li>
+                </ul>
+                <input type="text" id="schoolArea" name="schoolArea" />
+            </div>
+            <div class="radio-inline">
+                <label>
+                    <input type="radio" id="classType" name="classType" value="Kindergarten" checked>
+                    <span i18n="apply.form.campus.section.international">International Section</span>
+                </label>
+            </div>
+            <div class="radio-inline">
+                <label>
+                    <input type="radio" id="classType" name="classType" value="Primary">
+                    <span i18n="apply.form.campus.section.bilingual">Bilingual Section</span>
+                </label>
+            </div>
+            <br>
+            <button id="emailFormBtn" type="submit" class="btn btn-block btn-default" i18n="apply.form.later.button">Send</button>
+        </form>
+    </div>
+</div>
+
+
